@@ -1,0 +1,21 @@
+{
+  "name": "insiders-theme",
+  "displayName": "insiders-theme",
+  "description": "Insiders theme for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Insiders Theme",
+        "uiTheme": "vs",
+        "path": "./themes/insiders-theme.json"
+      }
+    ]
+  }
+}
